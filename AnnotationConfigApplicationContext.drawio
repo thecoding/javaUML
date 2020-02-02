@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-02-02T05:35:21.185Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="oqfkNCR__SVUQn6HUzqO" version="12.6.2" type="github">
+<mxfile host="www.draw.io" modified="2020-02-02T05:44:13.988Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="SyJ5UP8Eizz6FN5J-Ce4" version="12.6.2" type="github">
   <diagram id="J6FIPwA2dGFhnOmoy--k" name="第 1 页">
-    <mxGraphModel dx="2024" dy="954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -224,17 +224,20 @@
         <mxCell id="rK2NWTrXdCGRy9BM0mTn-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="rK2NWTrXdCGRy9BM0mTn-4">
           <mxGeometry x="114.17" y="1094" width="10" height="146" as="geometry"/>
         </mxCell>
-        <mxCell id="rK2NWTrXdCGRy9BM0mTn-8" value="registerDefaultFilters" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="rK2NWTrXdCGRy9BM0mTn-4">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="113.17" y="1121" as="sourcePoint"/>
-            <Array as="points">
-              <mxPoint x="138.17000000000002" y="1121"/>
-            </Array>
-            <mxPoint x="118.17" y="1141" as="targetPoint"/>
+        <mxCell id="rK2NWTrXdCGRy9BM0mTn-27" value="&lt;span style=&quot;text-align: left&quot;&gt;registerDefaultFilters()&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="rK2NWTrXdCGRy9BM0mTn-4" target="rK2NWTrXdCGRy9BM0mTn-25">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="120" y="1110" as="sourcePoint"/>
+            <mxPoint x="200" y="1110" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="rK2NWTrXdCGRy9BM0mTn-10" value="增加AnnotaionFilters默认拦截器&lt;br&gt;&lt;br&gt;1、Component.class&lt;br&gt;2、javax.annotation.ManageBean&lt;br&gt;3、javax.inject.Named&lt;br&gt;通过AnnotationTypeFilter封装，并且放到includeFilters的List&amp;lt;TypeFilter&amp;gt;集合中，Component是Spring中的注解，后面两个是javax的注解，三种都是托管bean的方式" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="1">
-          <mxGeometry x="3180" y="1270" width="220" height="140" as="geometry"/>
+          <mxGeometry x="3560" y="1240" width="220" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="rK2NWTrXdCGRy9BM0mTn-25" value="ClassPathScanningCondateProvider" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="3390" y="110" width="270" height="1680" as="geometry"/>
+        </mxCell>
+        <mxCell id="rK2NWTrXdCGRy9BM0mTn-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="rK2NWTrXdCGRy9BM0mTn-25">
+          <mxGeometry x="130" y="1110" width="10" height="80" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
