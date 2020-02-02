@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-02-02T03:01:42.388Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="bPeDB8RRH1GtES0XZCi1" version="12.6.2" type="github">
+<mxfile host="www.draw.io" modified="2020-02-02T03:55:30.737Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="cmisJyyFSi7S5LWTOW1i" version="12.6.2" type="github">
   <diagram id="J6FIPwA2dGFhnOmoy--k" name="第 1 页">
-    <mxGraphModel dx="1012" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2024" dy="954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -8,7 +8,7 @@
           <mxGeometry x="90" y="100" width="220" height="1510" as="geometry"/>
         </mxCell>
         <mxCell id="8ODlPxmyZQtsZDisSIkz-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="8ODlPxmyZQtsZDisSIkz-1" vertex="1">
-          <mxGeometry x="105" y="60" width="10" height="1150" as="geometry"/>
+          <mxGeometry x="105" y="60" width="10" height="1240" as="geometry"/>
         </mxCell>
         <mxCell id="8ODlPxmyZQtsZDisSIkz-10" value="constructor" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="8ODlPxmyZQtsZDisSIkz-1" target="8ODlPxmyZQtsZDisSIkz-9" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -28,6 +28,23 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="110" y="1100" as="sourcePoint"/>
             <mxPoint x="3030" y="1100" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rK2NWTrXdCGRy9BM0mTn-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="8ODlPxmyZQtsZDisSIkz-1">
+          <mxGeometry x="105" y="1186" width="10" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="rK2NWTrXdCGRy9BM0mTn-20" value="register(Class&amp;lt;?&amp;gt;... annotationClass)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="rK2NWTrXdCGRy9BM0mTn-19" parent="8ODlPxmyZQtsZDisSIkz-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="1166" as="sourcePoint"/>
+            <Array as="points">
+              <mxPoint x="135" y="1166"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rK2NWTrXdCGRy9BM0mTn-22" value="this.register.reader(annotationClass)" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="8ODlPxmyZQtsZDisSIkz-1" target="8ODlPxmyZQtsZDisSIkz-52">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="110" y="1210" as="sourcePoint"/>
+            <mxPoint x="190" y="1210" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="8ODlPxmyZQtsZDisSIkz-2" value="GenericApplicationContext" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
@@ -157,7 +174,7 @@
           <mxGeometry x="2275" y="656" width="90" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="8ODlPxmyZQtsZDisSIkz-52" value="AnnotationBeanDefinitionReader" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="2560" y="110" width="250" height="1070" as="geometry"/>
+          <mxGeometry x="2560" y="110" width="250" height="1550" as="geometry"/>
         </mxCell>
         <mxCell id="8ODlPxmyZQtsZDisSIkz-54" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="8ODlPxmyZQtsZDisSIkz-52" vertex="1">
           <mxGeometry x="119" y="750" width="10" height="200" as="geometry"/>
@@ -180,6 +197,9 @@
             <mxPoint x="128" y="830" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
+        <mxCell id="rK2NWTrXdCGRy9BM0mTn-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="8ODlPxmyZQtsZDisSIkz-52">
+          <mxGeometry x="120" y="1200" width="10" height="80" as="geometry"/>
+        </mxCell>
         <mxCell id="8ODlPxmyZQtsZDisSIkz-12" value="constructor" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="205" y="260" as="sourcePoint"/>
@@ -190,10 +210,22 @@
           <mxGeometry x="2700" y="950" width="280" height="200" as="geometry"/>
         </mxCell>
         <mxCell id="rK2NWTrXdCGRy9BM0mTn-4" value="ClassPathBeanDefinitionScanner" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="3030" y="656" width="230" height="1280" as="geometry"/>
+          <mxGeometry x="3000" y="110" width="240" height="1650" as="geometry"/>
         </mxCell>
         <mxCell id="rK2NWTrXdCGRy9BM0mTn-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="rK2NWTrXdCGRy9BM0mTn-4">
-          <mxGeometry x="110" y="544" width="10" height="60" as="geometry"/>
+          <mxGeometry x="114.17" y="1094" width="10" height="146" as="geometry"/>
+        </mxCell>
+        <mxCell id="rK2NWTrXdCGRy9BM0mTn-8" value="registerDefaultFilters" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="rK2NWTrXdCGRy9BM0mTn-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="113.17" y="1121" as="sourcePoint"/>
+            <Array as="points">
+              <mxPoint x="138.17000000000002" y="1121"/>
+            </Array>
+            <mxPoint x="118.17" y="1141" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rK2NWTrXdCGRy9BM0mTn-10" value="增加AnnotaionFilters默认拦截器&lt;br&gt;&lt;br&gt;1、Component.class&lt;br&gt;2、javax.annotation.ManageBean&lt;br&gt;3、javax.inject.Named&lt;br&gt;通过AnnotationTypeFilter封装，并且放到includeFilters的List&amp;lt;TypeFilter&amp;gt;集合中，Component是Spring中的注解，后面两个是javax的注解，三种都是托管bean的方式" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="1">
+          <mxGeometry x="3180" y="1270" width="220" height="140" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
