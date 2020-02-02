@@ -1,14 +1,14 @@
-<mxfile host="www.draw.io" modified="2020-02-01T09:42:30.159Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="klb8zVCy6TLW-EY8kJWD" version="12.6.2" type="github">
+<mxfile host="www.draw.io" modified="2020-02-02T03:01:42.388Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="bPeDB8RRH1GtES0XZCi1" version="12.6.2" type="github">
   <diagram id="J6FIPwA2dGFhnOmoy--k" name="第 1 页">
     <mxGraphModel dx="1012" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
         <mxCell id="8ODlPxmyZQtsZDisSIkz-1" value="AnnotationConfigApplicationContext" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="90" y="100" width="220" height="1069" as="geometry"/>
+          <mxGeometry x="90" y="100" width="220" height="1510" as="geometry"/>
         </mxCell>
         <mxCell id="8ODlPxmyZQtsZDisSIkz-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="8ODlPxmyZQtsZDisSIkz-1" vertex="1">
-          <mxGeometry x="105" y="60" width="10" height="740" as="geometry"/>
+          <mxGeometry x="105" y="60" width="10" height="1150" as="geometry"/>
         </mxCell>
         <mxCell id="8ODlPxmyZQtsZDisSIkz-10" value="constructor" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="8ODlPxmyZQtsZDisSIkz-1" target="8ODlPxmyZQtsZDisSIkz-9" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -24,13 +24,10 @@
             <mxPoint x="190" y="761" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="8ODlPxmyZQtsZDisSIkz-59" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="8ODlPxmyZQtsZDisSIkz-1" vertex="1">
-          <mxGeometry x="105" y="811" width="10" height="119" as="geometry"/>
-        </mxCell>
-        <mxCell id="8ODlPxmyZQtsZDisSIkz-60" value="new StandardEnvironment()" style="html=1;verticalAlign=bottom;endArrow=block;" parent="8ODlPxmyZQtsZDisSIkz-1" target="8ODlPxmyZQtsZDisSIkz-52" edge="1">
+        <mxCell id="rK2NWTrXdCGRy9BM0mTn-6" value="new ClassPathBeanDefinitionScanner()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.5;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="8ODlPxmyZQtsZDisSIkz-1" target="rK2NWTrXdCGRy9BM0mTn-5">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="110" y="871" as="sourcePoint"/>
-            <mxPoint x="190" y="871" as="targetPoint"/>
+            <mxPoint x="110" y="1100" as="sourcePoint"/>
+            <mxPoint x="3030" y="1100" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="8ODlPxmyZQtsZDisSIkz-2" value="GenericApplicationContext" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
@@ -160,24 +157,27 @@
           <mxGeometry x="2275" y="656" width="90" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="8ODlPxmyZQtsZDisSIkz-52" value="AnnotationBeanDefinitionReader" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="2560" y="110" width="230" height="1070" as="geometry"/>
+          <mxGeometry x="2560" y="110" width="250" height="1070" as="geometry"/>
         </mxCell>
         <mxCell id="8ODlPxmyZQtsZDisSIkz-54" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="8ODlPxmyZQtsZDisSIkz-52" vertex="1">
-          <mxGeometry x="110" y="750" width="10" height="200" as="geometry"/>
+          <mxGeometry x="119" y="750" width="10" height="200" as="geometry"/>
         </mxCell>
-        <mxCell id="8ODlPxmyZQtsZDisSIkz-57" value="getOrCreateEnvironment(registry)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="8ODlPxmyZQtsZDisSIkz-52" edge="1">
+        <mxCell id="8ODlPxmyZQtsZDisSIkz-57" value="getOrCreateEnvironment(registry)&lt;br&gt;return new StandardEnvironment" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="8ODlPxmyZQtsZDisSIkz-52" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="115" y="778" as="sourcePoint"/>
+            <mxPoint x="123" y="766" as="sourcePoint"/>
             <Array as="points">
-              <mxPoint x="140" y="778"/>
+              <mxPoint x="148" y="766"/>
             </Array>
-            <mxPoint x="120" y="798" as="targetPoint"/>
+            <mxPoint x="128" y="786" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="8ODlPxmyZQtsZDisSIkz-58" value="getEnvironment()" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0.5;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="2675" y="992.5" as="sourcePoint"/>
-            <mxPoint x="200" y="993" as="targetPoint"/>
+        <mxCell id="rK2NWTrXdCGRy9BM0mTn-2" value="AnnotationConfigUtils.registerAnnotationConfigProcessors" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="8ODlPxmyZQtsZDisSIkz-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="123" y="810" as="sourcePoint"/>
+            <Array as="points">
+              <mxPoint x="148" y="810"/>
+            </Array>
+            <mxPoint x="128" y="830" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="8ODlPxmyZQtsZDisSIkz-12" value="constructor" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" edge="1">
@@ -185,6 +185,15 @@
             <mxPoint x="205" y="260" as="sourcePoint"/>
             <mxPoint x="519.5" y="260" as="targetPoint"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="rK2NWTrXdCGRy9BM0mTn-3" value="&lt;span style=&quot;font-size: 11px ; white-space: nowrap ; background-color: rgb(255 , 255 , 255)&quot;&gt;register注册spring6个内置的处理器&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;ConfigurationClassPostProcessor(实现自接口BeanFactoryPostProcessor)&lt;br&gt;&lt;/div&gt;&lt;div&gt;AutowiredAnnotationBeanPostProcessor(实现自接口BeanPostProcessor)&lt;br&gt;&lt;/div&gt;&lt;div&gt;RequiredAnnotationBeanPostProcessor(实现自接口BeanPostProcessor)&lt;br&gt;&lt;/div&gt;&lt;div&gt;CommonAnnotationBeanPostProcessor(实现自接口BeanPostProcessor)&lt;br&gt;&lt;/div&gt;&lt;div&gt;EventListenerMethodProcessor(实现自接口ApplicationContextAware)&lt;br&gt;&lt;/div&gt;&lt;div&gt;DefaultEventListenerFactory(实现自接口EventListenerFactory)&amp;nbsp;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="1">
+          <mxGeometry x="2700" y="950" width="280" height="200" as="geometry"/>
+        </mxCell>
+        <mxCell id="rK2NWTrXdCGRy9BM0mTn-4" value="ClassPathBeanDefinitionScanner" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="3030" y="656" width="230" height="1280" as="geometry"/>
+        </mxCell>
+        <mxCell id="rK2NWTrXdCGRy9BM0mTn-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="rK2NWTrXdCGRy9BM0mTn-4">
+          <mxGeometry x="110" y="544" width="10" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
